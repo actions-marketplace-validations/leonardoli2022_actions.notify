@@ -127,7 +127,7 @@ export default class Lark extends Notify {
             content: `${inputs.notifyTitle}`,
             tag: 'plain_text',
           },
-          template: 'green',
+          template: `${inputs.templateColor}`,
         },
         elements: [
           {
@@ -218,7 +218,7 @@ export default class Lark extends Notify {
             content: `${inputs.notifyTitle}`,
             tag: 'plain_text',
           },
-          template: 'green',
+          template: `${inputs.templateColor}`,
         },
         elements: [
           {

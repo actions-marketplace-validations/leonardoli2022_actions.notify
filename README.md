@@ -29,6 +29,7 @@ jobs:
         plat_type: 'Lark'
         notify_title: 'Project Updated'
         notify_message: 'Project updated, please check projects online status'
+        template_color: 'green'
       env:
         NOTIFY_WEBHOOK: ${{ secrets.NOTIFY_WEBHOOK }}
         NOTIFY_SIGNKEY: ${{ secrets.NOTIFY_SIGNKEY }}

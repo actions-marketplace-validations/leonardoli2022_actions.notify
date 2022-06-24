@@ -17,6 +17,7 @@ async function run() {
     const type = core.getInput('plat_type');
     const notifyTitle = core.getInput('notify_title') || 'Project Update';
     const notifyMessage = core.getInput('notify_message');
+    const templateColor = core.getInput('template_color');
     const {
       NOTIFY_WEBHOOK,
       NOTIFY_SIGNKEY,
@@ -34,6 +35,7 @@ async function run() {
     const notify = new Plat[type](NOTIFY_WEBHOOK, github.context, {
       notifyTitle,
       notifyMessage,
+      templateColor,
       signKey: NOTIFY_SIGNKEY,
     });
 
