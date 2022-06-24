@@ -127,7 +127,7 @@ export default class Lark extends Notify {
             content: `${inputs.notifyTitle}`,
             tag: 'plain_text',
           },
-          template: 'turquoise',
+          template: 'green',
         },
         elements: [
           {
@@ -156,7 +156,7 @@ export default class Lark extends Notify {
               {
                 tag: 'button',
                 text: {
-                  content: 'More Information :玫瑰:',
+                  content: 'More Information',
                   tag: 'lark_md',
                 },
                 url: `${ctxFormatContent.actionUrl}`,
@@ -218,7 +218,7 @@ export default class Lark extends Notify {
             content: `${inputs.notifyTitle}`,
             tag: 'plain_text',
           },
-          template: 'turquoise',
+          template: 'green',
         },
         elements: [
           {
@@ -260,7 +260,7 @@ export default class Lark extends Notify {
               {
                 tag: 'button',
                 text: {
-                  content: 'More Information :玫瑰:',
+                  content: 'More Information',
                   tag: 'lark_md',
                 },
                 url: `${ctxFormatContent.actionUrl}`,
