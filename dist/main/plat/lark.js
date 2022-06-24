@@ -142,7 +142,7 @@ class Lark extends notify_1.default {
                     {
                         tag: 'div',
                         text: {
-                            content: `**Message**，\n ${inputs.notifyMessage || ctxFormatContent.commitsContent}`,
+                            content: `**Message:**\n ${inputs.notifyMessage || ctxFormatContent.commitsContent}`,
                             tag: 'lark_md',
                         },
                     },
@@ -241,7 +241,7 @@ class Lark extends notify_1.default {
                     {
                         tag: 'div',
                         text: {
-                            content: `**Message**，\n ${inputs.notifyMessage || ctxFormatContent.commitsContent}`,
+                            content: `**Message:**\n ${inputs.notifyMessage || ctxFormatContent.commitsContent}`,
                             tag: 'lark_md',
                         },
                     },
